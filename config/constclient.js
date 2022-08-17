@@ -20,7 +20,7 @@ export const BSCTESTNET = 'https://rabbiteggsdefi.github.io/polygontestnetnfts/'
 
 // Social Media Links
 export const TWITTER ='https://twitter.com/Defieggs';
-export const TIKTOK ='https://www.tiktok.com/@rabbiteggsdefi?lang=en';
+export const TIKTOK ='https://discord.com/invite/4Nqw6RN8nU';
 export const YOUTUBE ='https://www.youtube.com/channel/UCGaNXVdMp59672Nkjl3GsVg';
 
 

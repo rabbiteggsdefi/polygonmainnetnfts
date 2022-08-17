@@ -325,7 +325,7 @@ export default function Home() {
                                     e.preventDefault();
                                     gotouri(TIKTOK);
                                   }}
-          >TikTok</button> 
+          >Discord</button> 
           <button
                                    onClick={(e) => {
                                     e.preventDefault();
