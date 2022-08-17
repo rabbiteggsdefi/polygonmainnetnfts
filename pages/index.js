@@ -7,7 +7,7 @@ import Web3 from 'web3';
 import Main from '../components/Main';
 import Basket from '../components/Basket';
 import data from '../components/data';
-import { BSCTESTNET, CONTADDRESS, DSTATECT, GUIDE, PAPERS, TIPS, TWITTER, YOUTUBE,BASEIMAGEPATH, TIKTOK } from '../config/constclient';
+import { BSCTESTNET, CONTADDRESS, DSTATECT, GUIDE, PAPERS, TIPS, TWITTER, YOUTUBE,BASEIMAGEPATH, TIKTOK, TOKENADDRESS, TOKENCT } from '../config/constclient';
 import SimpleStorageContract from '../config/contracts/Dstate.json';
 
 export default function Home() {
@@ -302,12 +302,18 @@ export default function Home() {
       <footer className={styles.footer}>
 
         <div className={styles.menulinef} >
+        <button
+                         onClick={(e) => {
+                          e.preventDefault();
+                          gotouri(TOKENCT);
+                        }}
+          >Buy Contract</button> 
           <button
                          onClick={(e) => {
                           e.preventDefault();
                           gotouri(DSTATECT);
                         }}
-          >Contract Address</button> 
+          >Withdraw Contract</button> 
           <button
                                    onClick={(e) => {
                                     e.preventDefault();
