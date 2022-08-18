@@ -235,7 +235,7 @@ export default function Home() {
     <div className={styles.pageCol}>
       <Head>
         <title>Rabbit Eggs DeFi</title>
-        <meta name="description" content="Rabbit Eggs Token RXGS based on Binance Smart Chain" /> 
+        <meta name="description" content="Rabbit Eggs DeFi - Mint 2 Earn Platform" /> 
         <link rel="icon"  href={faviconpath} />
       </Head>
 
