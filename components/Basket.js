@@ -106,7 +106,7 @@ export default function Basket(props) {
         {cartItems.length !== 0 && (
           <>
           <div className={styles.infi}>Copy Token Address and Import</div>
-              <div>
+              {/* <div>
               {isConnected && (<button className={styles.paybutton} 
                 onClick={(e) => {
                     e.preventDefault();
@@ -118,7 +118,7 @@ export default function Basket(props) {
                 Mint
               </button>)}
 
-              </div>
+              </div> */}
 
           </>
         )}

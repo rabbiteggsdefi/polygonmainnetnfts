@@ -238,9 +238,11 @@ export default function Home() {
         <meta name="description" content="Rabbit Eggs DeFi - Mint 2 Earn Platform" /> 
         <link rel="icon"  href={faviconpath} />
       </Head>
-
+    
         <main className={styles.main}>
-
+        <p className={styles.alerttext}>Project is in Upgradation.</p>
+        <p className={styles.alerttext}>All user's MATIC are send to their Respective MetaMask</p>
+        <br></br>
           <div className={styles.menuline}>
           <button><Image src="/rxscoin.png" alt="rabbit eggs defi" width={15} height={15} /></button>
           <button
@@ -296,7 +298,8 @@ export default function Home() {
             </div>
 
           </div>)}
-
+          <p className={styles.alerttext}>Upgrade version released soon.</p>
+          <p  className={styles.alerttext}>Please keep in touch with us vai Twitter</p>
       </main>
 
       <footer className={styles.footer}>
